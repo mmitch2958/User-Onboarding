@@ -3,7 +3,7 @@ import React, { useState} from 'react'
 
 const OBForm = (props) => {
     const [user, setUser] = useState({
-        id: Date.now,
+        id: Date.now(),
         name: '',
         email: '',
         pass: '',
@@ -24,7 +24,7 @@ const OBForm = (props) => {
         console.log('Form Submitted')
        
         props.setNewValue(user)
-        setUser({ name: "", email: "", pass: "", terms: true})
+        setUser({id:{Date}, name: "", email: "", pass: "", terms: true})
     }
 
     return (
@@ -32,10 +32,10 @@ const OBForm = (props) => {
             <lable htmlFor='id'>
                 ID
             <input
-                type= {Date}
+                type= {Number}
                 name='id'
                 placeholder='ID'
-                value={Date}
+                value={user.id}
                 onChange={dataChange}
                 />
             </lable>
