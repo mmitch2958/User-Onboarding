@@ -1,0 +1,73 @@
+
+Creating a new React app in C:\lambda\unit2\DailyProjects\User-Onboarding\user-onboarding\user-onboarding.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+> core-js@2.6.11 postinstall C:\lambda\unit2\DailyProjects\User-Onboarding\user-onboarding\user-onboarding\node_modules\babel-runtime\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\lambda\unit2\DailyProjects\User-Onboarding\user-onboarding\user-onboarding\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js-pure@3.6.5 postinstall C:\lambda\unit2\DailyProjects\User-Onboarding\user-onboarding\user-onboarding\node_modules\core-js-pure
+> node -e "try{require('./postinstall')}catch(e){}"
+
++ react@16.13.1
++ react-dom@16.13.1
++ cra-template@1.0.3
++ react-scripts@3.4.3
+added 1582 packages from 745 contributors and audited 1586 packages in 122.823s
+
+65 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+Installing template dependencies using npm...
++ @testing-library/user-event@7.2.1
++ @testing-library/jest-dom@4.2.4
++ @testing-library/react@9.5.0
+added 36 packages from 57 contributors and audited 1622 packages in 22.004s
+
+65 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Removing template package using npm...
+
+removed 1 package and audited 1621 packages in 12.256s
+
+65 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+Success! Created user-onboarding at C:\lambda\unit2\DailyProjects\User-Onboarding\user-onboarding\user-onboarding
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd user-onboarding
+  npm start
+
+Happy hacking!
